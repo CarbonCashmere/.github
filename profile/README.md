@@ -2,14 +2,14 @@
 
 # Carbon &amp; Cashmere
 
-**Crypto Intelligence MCP Server — built for AI agents.**
+**Crypto intelligence, built for autonomous agents.**
 
 [![MCP tools](https://img.shields.io/badge/MCP-104%20tools-2563eb?style=flat-square)](https://api.carbon-cashmere.de/mcp/sse)
 [![x402 native](https://img.shields.io/badge/x402-native-7c3aed?style=flat-square)](https://x402.org)
 [![Networks](https://img.shields.io/badge/networks-Base%20·%20Solana%20·%20Algorand%20·%20Stellar-22c55e?style=flat-square)](https://api.carbon-cashmere.de/api/v3/x402/discover)
 [![License](https://img.shields.io/badge/license-MIT-737373?style=flat-square)](https://github.com/CarbonCashmere/carbon-cashmere-mcp/blob/main/LICENSE)
 
-`104 tools · 116 coins · 730 days history · sub-50ms latency · 4 payment networks`
+`104 tools · 116 coins · sub-50 ms · 4 payment networks`
 
 [**Live Docs**](https://api.carbon-cashmere.de/docs) · [**MCP Server**](https://github.com/CarbonCashmere/carbon-cashmere-mcp) · [**Python SDK**](https://github.com/CarbonCashmere/carbon-cashmere-python) · [**Website**](https://www.carbon-cashmere.de)
 
@@ -17,28 +17,27 @@
 
 ---
 
-## What we ship
+## Why Carbon &amp; Cashmere
 
-Carbon &amp; Cashmere is a **node-backed crypto intelligence platform** built for AI agents, quants, and trading desks. We operate our own blockchain nodes and run a five-model XGBoost ensemble for ML signals — then expose everything as 104 MCP tools, 70+ REST endpoints, and a typed Python SDK.
+We build crypto intelligence for the next generation of autonomous trading agents — not dashboards for humans clicking buttons.
 
-**Own infrastructure, not aggregator-layer:**
+**Designed for agents, priced for agents.** Every endpoint is pay-per-call via x402 micropayments. No accounts, no API-key dances, no monthly commitments unless you want one. Your agent finds a tool, pays $0.003, gets a clean answer.
 
-- BTC mempool node · ETH beacon node · Kaspa node · Bittensor node
-- 730 days of clean OHLCV across 116 coins
-- Redis-cached intelligence feed — sub-50 ms on hot endpoints
-- Five-model XGBoost ensemble + V3 `tsfresh` per-coin models
+**Quality you can audit.** Each ML signal ships with confidence, calibration, and metadata. Briefings cite their sources. Anomaly flags carry evidence. If a number leaves our API, you can defend it.
 
-## Capabilities
+**Hosted, monitored, accountable.** One canonical endpoint, one team behind it.
 
-| Pillar | What you get |
+## What you can call
+
+| Surface | Examples |
 |---|---|
-| **Market Data** | Real-time prices, OHLCV, gas, stablecoins (free tier available) |
-| **ML Signals** | 5-model ensemble · V3 `tsfresh` per coin · conviction scoring · signal feed |
-| **Intelligence Feed** | Multi-coin Redis snapshots &lt;50 ms · 730 d history |
-| **Derivatives** | Funding rates · OI · long/short ratios · liquidations · options |
-| **On-Chain** | BTC mempool · ETH beacon · Kaspa · Bittensor · CDD · UTXO |
-| **Analytics** | HMM market regime · anomaly detection · correlation · factor analysis |
-| **AI Briefings** | LLM-grounded market intelligence, sourced from live data |
+| **Market data** | Real-time prices · OHLCV · gas · stablecoin metrics |
+| **ML signals** | Per-coin model output · confidence-scored direction calls · regime tags |
+| **Intelligence feed** | Multi-coin snapshots designed for low-latency agent loops |
+| **Derivatives** | Funding · open interest · long/short ratios · liquidations · options |
+| **On-chain** | Network health and supply metrics for major chains |
+| **Analytics** | Regime detection · anomaly flags · correlation · factor decomposition |
+| **AI briefings** | Source-grounded market summaries, ready for agent context windows |
 
 ## Pricing
 
@@ -64,14 +63,13 @@ No subscription gates the free tier. Pay-per-call requires no signup — just a 
 
 | Repo | What it is |
 |---|---|
-| [**carbon-cashmere-mcp**](https://github.com/CarbonCashmere/carbon-cashmere-mcp) | The MCP server — 104 tools, Docker, hosted at `api.carbon-cashmere.de` |
+| [**carbon-cashmere-mcp**](https://github.com/CarbonCashmere/carbon-cashmere-mcp) | The MCP server — 104 tools, hosted at `api.carbon-cashmere.de` |
 | [**carbon-cashmere-python**](https://github.com/CarbonCashmere/carbon-cashmere-python) | Python SDK — 39 methods across 70+ endpoints |
-| [**awesome-x402**](https://github.com/CarbonCashmere/awesome-x402) | Curated x402 protocol resources |
 
 ## Built on
 
 - [Model Context Protocol](https://modelcontextprotocol.io) — Anthropic's open standard for tool use
-- [x402](https://x402.org) — HTTP 402 payments protocol (Coinbase + Linux Foundation)
+- [x402](https://x402.org) — HTTP 402 payments (Coinbase + Linux Foundation)
 - 11 x402 facilitators — CDP · Dexter · PayAI · Questflow · Bitrefill · OpenX402 · 0xArchive · 0xMeta · AutoIncentive · GoPlausible · OZ
 
 ## Listings
